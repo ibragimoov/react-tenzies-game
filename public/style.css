@@ -3,7 +3,6 @@
 }
 
 body {
-    margin: 0;
     background-color: #0B2434;
     padding: 20px;
     font-family: 'Karla', sans-serif;
@@ -20,11 +19,9 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -17em;
-    margin-left: -22em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
 
 .title {
@@ -56,6 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    user-select: none;
 }
 
 .die-num {
@@ -82,11 +80,9 @@ main {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 200px) and (max-width: 700px) {
+/* @media (min-width: 200px) and (max-width: 700px) {
     main {
-        height: 500px;
-        max-width: 400px;
-        margin-top: -17em;
-        margin-left: -12.5em;
+        height: 400px;
+        width: 500;
     }
-}
+} */
