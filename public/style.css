@@ -6,6 +6,7 @@ body {
     background-color: #0B2434;
     padding: 20px;
     font-family: 'Karla', sans-serif;
+    margin: 0 auto;
 }
 
 main {
@@ -80,9 +81,48 @@ main {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
-/* @media (min-width: 200px) and (max-width: 700px) {
+@media (min-width: 200px) and (max-width: 700px) {
     main {
-        height: 400px;
-        width: 500;
+        height: 600px;
+        width: 300px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        justify-content:center;
     }
-} */
+
+    .dice-container {
+        grid-template: auto auto / repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .roll-dice {
+        height: 60px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+    main {
+        height: 600px;
+        width: 300px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        justify-content:center;
+    }
+
+    .dice-container {
+        grid-template: auto auto / repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .roll-dice {
+        height: 60px;
+    }
+}
